@@ -1,0 +1,142 @@
+/*MORALES PEREZ AXEL JONATHAN*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	overflow: visible;
+}
+#titulo_1{
+	margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+#texto_1{
+    font-size: 18px;
+    text-align: center;
+}
+#icon_1{
+    margin-top: -25px;
+    margin-left: 50px;
+}
+#icon_1{
+    width: 95px;
+    height: 95px;
+}
+#icon_2{
+    margin-top: -55px;
+    margin-bottom: 0px;
+    margin-left: 520px;
+    margin-right: 0px;
+}
+#icon_2{
+    width: 240px;
+    height: 50px;
+}
+.zoom_1 {
+    transition: width 1s,height 1s, transform 1s;
+    -moz-transition: width 1s,heigt 1s,-moz-transform 1s;
+    -webkit-transition: width 1s,height 1s,-webkit-transform 1s;
+    -o-transition:width 1s,height 1s,o-transform 1s;
+
+}
+.zoom_1:hover{
+    color: none;
+    transform: scale (1.2);
+    -moz-transform:scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+/*contenido principal_______________________________________________________________________________________________________________________________*/
+#contenido_principal{
+	float: left;
+	margin-left: 30px;
+	width: 1300px;
+	height: 1500px;
+}
+.caja_cont{
+	margin-left: 100px;
+	width: 1100px;
+	height: 250px;
+}
+.titulo{
+	text-align: center;
+	font-family: arial;
+	font-size: 23px;
+}
+.descripcion{
+	text-align: justify;
+	font-family: arial;
+	font-size: 20px;
+}
+.img_generales{
+	border-radius: 15%;
+	margin-left: 20px;
+	width: 380px;
+	height: 250px;
+	float: left;
+}
+#caja_img{
+	margin-left: -50px;
+	width: 1200px;
+	height: 250px;
+}
+#video{
+	margin-left: 280px;
+}
+/*menu_______________________________________________________________________________________________________________________________________*/
+.contenedor {
+    width:1340px;
+    margin-left: -25px;
+}
+
+.contenedor p {
+    margin-bottom:40px;
+}
+
+header nav {
+    background:#FF8F00;
+    margin-bottom:10px;
+}
+
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+header nav ul li {
+    float: left;
+    margin-left: 120px;
+    font-family: arial;
+    font-size: 14px;
+}
+header nav ul li a {
+    display: block;
+    padding:20px;
+    color:#fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background:#FFFFFF;
+    opacity: .9;
+    color: black;
+}
+.menu-fixed {
+    position:fixed;
+    z-index:1000;
+    top:0px;
+    left: 0px;
+    width:1500px;
+    height: 8.5%;
+    box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+#clouds{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,#FF8F00,#9C27B0 );
+    position: relative;
+    overflow: hidden;
+}
+/*MORALES PEREZ AXEL JONATHAN*/
